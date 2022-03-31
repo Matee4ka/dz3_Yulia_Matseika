@@ -1,0 +1,264 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   background: #ffffff;
+   font-family: Kodchasan, sans-serif;
+   font-style: bold;
+   font-size: 22px;
+   font-weight: 600;
+   /* Line-height: 160%; */
+   color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+   max-width: 1530px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 29px;
+   margin-bottom: 31px;
+}
+
+.navigation {
+   display: flex;
+   list-style: none;
+}
+
+.navigation a{
+   font-weight: 500;
+   text-decoration: none;
+   color: #000000;
+   margin-left: 42px;
+}
+.navigation a:hover {
+font-weight: 700;
+}
+
+h1{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 130px;
+   color: #0B0B0B;
+   max-width: 670px;
+   min-height: 140px; 
+   margin-left: 78px;
+   margin-bottom: 102px;
+}
+
+.first-block {
+   display: flex;
+   justify-content: space-between;
+   background-image: url('../img/Background.svg');
+   background-repeat: no-repeat;
+   padding-top: 124px;
+   padding-bottom: 91px;
+}
+
+.section_buy_now{
+   padding-top: 38px;
+}
+
+.buttons_padding{
+   padding-left: 78px;
+}
+.btn {
+   font-family: Kodchasan, sans-serif;
+   width: 180px;
+   height: 65px;
+   text-align: center;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 160%;
+   cursor: pointer;
+}
+
+.button_black{
+   color: #FFFFFF;
+   background-color:#000000;
+   border: none;
+   margin-right: 30px;
+}
+
+.button_opacity{
+   border: 1px solid #000000;
+   background: rgba(0, 0, 0, 0);
+}
+
+.image_bees{
+   max-width: 686.83px;
+   min-height: 650px;
+   margin-right: 10.17px;
+}
+
+.shops{
+   padding-top: 130px;
+   padding-left: 227px;
+}
+
+h3{
+   font-family: 'Kodchasan', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 160%;
+   padding-bottom: 55.77px;
+}
+
+.block-two{
+   display: flex;
+   justify-content: space-between;
+   /* padding-left: 224px; */
+   padding-left: 0px;
+   padding-right: 101.67px;
+   padding-bottom: 133.93px;
+}
+
+.block-three{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 100.74px;
+}
+
+.two-columns{
+   max-width: 574.56px ;
+   max-height: 130px;
+   padding-top: 203.21px;
+   padding-bottom: 30px;
+}
+
+.button_orange{
+   background: #E68311;
+   border: none;
+   color: #FFFFFF;
+}
+
+p{
+   padding-bottom: 65px;
+}
+
+.four{
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.block-five{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-items: baseline;
+}
+
+.block-five a{
+   color: #E58211;
+}
+
+.block-six{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row-reverse;
+   align-items: center;
+   background: rgba(229, 130, 17, .07);
+   padding-left:30px;
+   margin-bottom: 130px;
+}
+
+.block-six h3{
+   padding-bottom: 20px;
+   padding-top: 45px;
+}
+
+.block-six p{
+   padding-bottom: 40px;
+}
+
+.columns{
+   width: 558px;
+   height: 305px;
+ 
+}
+
+.product {
+   max-width: 1530px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.button_orange_opasity{
+   border: 1.5px solid #E58211;
+   background: rgba(0, 0, 0, 0);
+   color: #E58211;
+   width: 140px;
+   height: 49px;
+   cursor: pointer;
+}
+
+ .footer{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   max-width: 1600px;
+   min-height: 137px;
+   margin: 0 auto;
+   padding: 0 15px;
+   background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%); 
+   
+ }
+/* footer{
+   background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%); 
+} */
+
+.logo-footer{
+padding-left: 2px;
+} 
+
+ .paragraf{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 22.4px;
+   max-width: 270px;
+   margin-left: 50px;
+   align-self: center;
+ }
+
+.pics {
+   display: flex;
+    width: 190px;
+    justify-content: space-between;
+    margin-left: 88px;
+}
+
+.shop{
+   display: flex;
+   justify-content: space-between;
+   width: 301.29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
